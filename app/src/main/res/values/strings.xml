@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PomeloFashion</string>
+    <string name="toolbar_title">Pemelo Fashion</string>
+    <string name="menu_title_current_location">CurrentLocation</string>
+    <string name="text_suggest_to_give_permission">You need to allow necessary permissions in Settings manually</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="empty_locations">There is nothing show pickup locations!.</string>
+    <string name="common_error_title">Oops</string>
+    <string name="error_location_not_found_message">Your loation is not found.</string>
+    <string name="btn_text_retry">Retry</string>
+    <string name="btn_text_cancel">Cancel</string>
+</resources>

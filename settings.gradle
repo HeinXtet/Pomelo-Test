@@ -1,0 +1,5 @@
+include ':test-utils'
+include ':data'
+include ':domain'
+include ':app'
+rootProject.name = "PomeloFashion"

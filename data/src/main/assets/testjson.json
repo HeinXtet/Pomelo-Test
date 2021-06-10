@@ -1,0 +1,126 @@
+{
+  "number_of_new_locations": 5,
+  "pickup": [
+    {
+      "feature": "fast_delivery",
+      "id_pickup_location": 39,
+      "id_country": 206,
+      "id_state": 315,
+      "id_carrier": 35,
+      "company": null,
+      "nps_link": "https://pomelo3.typeform.com/to/EDFJ5z",
+      "alias": "",
+      "address1": "",
+      "address2": "",
+      "district": "",
+      "city": "",
+      "postcode": "10110",
+      "latitude": 13.7314,
+      "longitude": 100.569212,
+      "phone": "02-003-6072",
+      "nearest_bts": "",
+      "notable_area": null,
+      "hours1": "",
+      "hours2": "",
+      "hours3": "",
+      "description": "",
+      "is_featured": false,
+      "subtype": "store",
+      "store_image_path": "{\"primary\":{\"landscape\":\"img/pickup-locations/main-image-landscape/emquartier.jpg\",\"full_landscape\":\"https://pomelofashion-staging.imgix.net/img/pickup-locations/main-image-landscape/emquartier.jpg\",\"portrait\":\"img/retail/stores/default/primary/default_portrait.jpg\",\"full_portrait\":\"https://pomelofashion-staging.imgix.net/img/retail/stores/default/primary/default_portrait.jpg\"},\"secondary\":\"img/pickup-locations/secondary-image/emquartier.jpg\",\"full_secondary\":\"https://pomelofashion-staging.imgix.net/img/pickup-locations/secondary-image/emquartier.jpg\"}",
+      "floormap_image_path": "{\"main\":\"img/pickup-locations/floor-map/emquartier.jpg\",\"full_main\":\"https://pomelofashion-staging.imgix.net/img/pickup-locations/floor-map/emquartier.jpg\",\"zoomed\":\"img/pickup-locations/floor-map-zoomed/emquartier.jpg\",\"full_zoomed\":\"https://pomelofashion-staging.imgix.net/img/pickup-locations/floor-map-zoomed/emquartier.jpg\"}",
+      "active": true,
+      "floor_number": "1",
+      "status": "active",
+      "id_zone": 3,
+      "features": [
+        {
+          "type": "fast_delivery",
+          "description": "Shop Online & Try Order On Offline"
+        },
+        {
+          "type": "shopping",
+          "description": "Shop New Arrivals & Best Sellers"
+        },
+        {
+          "type": "try_on",
+          "description": "Bring Home Only What You Love"
+        }
+      ],
+      "is_new_location": false,
+      "type": "pickup",
+      "hours": [],
+      "images": {
+        "store": {
+          "primary": {
+            "landscape": "img/pickup_location/images/20200304164134_5e5f77ce3d623_file.jpg",
+            "full_landscape": "img/pickup_location/images/20200304164134_5e5f77ce3d623_file.jpg",
+            "portrait": "img/retail/stores/default/primary/default_portrait.jpg",
+            "full_portrait": "https://pomelofashion-staging.imgix.net/img/retail/stores/default/primary/default_portrait.jpg"
+          },
+          "secondary": "img/pickup_location/images/20200304164123_5e5f77c317250_file.jpg",
+          "full_secondary": "img/pickup_location/images/20200304164123_5e5f77c317250_file.jpg"
+        },
+        "floormap": {
+          "main": "img/pickup_location/images/20200304164211_5e5f77f31bb6e_file.jpg",
+          "full_main": "img/pickup_location/images/20200304164211_5e5f77f31bb6e_file.jpg",
+          "zoomed": "img/pickup_location/images/20200304164148_5e5f77dc7f07c_file.jpg",
+          "full_zoomed": "img/pickup_location/images/20200304164148_5e5f77dc7f07c_file.jpg"
+        }
+      },
+      "is_default_location": false
+    },
+    {
+      "feature": null,
+      "id_pickup_location": 40,
+      "id_country": 206,
+      "id_state": 315,
+      "id_carrier": 35,
+      "company": "Pomelo",
+      "nps_link": "https://pomelo3.typeform.com/to/Bn6NVK",
+      "alias": "",
+      "address1": "",
+      "address2": "",
+      "district": "",
+      "city": "",
+      "postcode": "10600",
+      "latitude": 13.7269449,
+      "longitude": 100.5098593,
+      "phone": "02-288-0377",
+      "nearest_bts": "",
+      "notable_area": null,
+      "hours1": "",
+      "hours2": "",
+      "hours3": "",
+      "description": "",
+      "is_featured": false,
+      "subtype": "store",
+      "store_image_path": "{\"primary\":{\"landscape\":\"img/pickup-locations/main-image-landscape/iconsiam.jpg\",\"full_landscape\":\"https://pomelofashion-staging.imgix.net/img/pickup-locations/main-image-landscape/iconsiam.jpg\",\"portrait\":\"img/retail/stores/default/primary/default_portrait.jpg\",\"full_portrait\":\"https://pomelofashion-staging.imgix.net/img/retail/stores/default/primary/default_portrait.jpg\"},\"secondary\":\"img/pickup-locations/secondary-image/iconsiam.jpg\",\"full_secondary\":\"https://pomelofashion-staging.imgix.net/img/pickup-locations/secondary-image/iconsiam.jpg\"}",
+      "floormap_image_path": "{\"main\":\"img/pickup-locations/floor-map/iconsiam.jpg\",\"full_main\":\"https://pomelofashion-staging.imgix.net/img/pickup-locations/floor-map/iconsiam.jpg\",\"zoomed\":\"img/pickup-locations/floor-map-zoomed/iconsiam.jpg\",\"full_zoomed\":\"https://pomelofashion-staging.imgix.net/img/pickup-locations/floor-map-zoomed/iconsiam.jpg\"}",
+      "active": true,
+      "status": "active",
+      "id_zone": 3,
+      "is_new_location": false,
+      "type": "pickup",
+      "hours": [],
+      "images": {
+        "store": {
+          "primary": {
+            "landscape": "img/pickup_location/images/20200304164302_5e5f7826641d2_file.jpg",
+            "full_landscape": "img/pickup_location/images/20200304164302_5e5f7826641d2_file.jpg",
+            "portrait": "img/retail/stores/default/primary/default_portrait.jpg",
+            "full_portrait": "https://pomelofashion-staging.imgix.net/img/retail/stores/default/primary/default_portrait.jpg"
+          },
+          "secondary": "img/pickup_location/images/20200304164247_5e5f7817067ed_file.jpg",
+          "full_secondary": "img/pickup_location/images/20200304164247_5e5f7817067ed_file.jpg"
+        },
+        "floormap": {
+          "main": "img/pickup_location/images/20200304164333_5e5f7845976e8_file.jpg",
+          "full_main": "img/pickup_location/images/20200304164333_5e5f7845976e8_file.jpg",
+          "zoomed": "img/pickup_location/images/20200304164313_5e5f7831d9a14_file.jpg",
+          "full_zoomed": "img/pickup_location/images/20200304164313_5e5f7831d9a14_file.jpg"
+        }
+      },
+      "is_default_location": false
+    }
+  ]
+}

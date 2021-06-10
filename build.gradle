@@ -1,0 +1,92 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+
+buildscript {
+    ext {
+        kotlin_version = "1.4.32"
+        hilt_version = "2.36"
+        room_version = "2.3.0"
+        interceptor_version = "4.9.0"
+        coroutines_version = '1.4.2'
+        arch_version = "2.1.0"
+        coroutines_version = "1.4.3"
+        room_version = "2.2.6"
+        retrofit_version = "2.9.0"
+        interceptor_version = "4.9.0"
+        lifecycle_version = "2.3.1"
+        ktx_version = "1.4.0-alpha01"
+        glide_version = "4.12.0"
+        fragment_ktx_version = "1.3.4"
+        activity_ktx_version = "1.2.3"
+        gson_version = "2.9.0"
+        moshi_version = '1.11.0'
+        moshi_converter_version = '2.7.2'
+        navigation_version = "2.3.0"
+        firebase_version = "19.0.0"
+        glide_version = '4.12.0'
+        timber_version = "4.7.1"
+        core_ktx_version = "1.5.0"
+        material_dialog_version = "3.3.0"
+        google_location_service_version = "18.0.0"
+        permission_x_version = "1.4.0"
+        mockwebserver_version = '4.2.1'
+        junit_version = "4.13.2"
+        mockito_version = "3.2.4"
+        truth_version = "1.0"
+        loggingInterceptor_version = "4.2.2"
+        mockitoKotlinVersion = "2.2.0"
+        core_testing = '1.1.1'
+
+    }
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.1.3"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+        classpath "org.jlleitschuh.gradle:ktlint-gradle:8.2.0"
+    }
+}
+
+plugins {
+    id "org.jlleitschuh.gradle.ktlint" version "8.2.0"
+}
+
+ext.ReporterType = org.jlleitschuh.gradle.ktlint.reporter.ReporterType
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://tokbox.bintray.com/maven' }
+        maven { url "https://kotlin.bintray.com/kotlinx/" }
+    }
+}
+
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}
+
+
+subprojects {
+    apply from: "$project.rootDir/script-ktlint.gradle"
+    tasks.withType(Test) {
+        maxHeapSize = "3g"
+    }
+    /*afterEvaluate { project ->
+        project.apply from: '../jacoco.gradle'
+    }*/
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
